@@ -20,13 +20,14 @@ namespace DataStructuresAndAlgorithms.Data_Structures.Linked_Lists.CTCI
             HashSet<T> alreadyEncounteredData = new HashSet<T>();
 
             INode<T> previous = null;
-            INode<T> next = linkedList.Head;
+            INode<T> next     = linkedList.Head;
 
             while( next != null )
             {
                 if ( alreadyEncounteredData.Contains( next.Data ))
                 {
                     previous.Next = next.Next;
+                    linkedList.RemovedElement();
                 }
 
                 else
