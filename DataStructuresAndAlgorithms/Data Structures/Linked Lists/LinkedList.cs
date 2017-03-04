@@ -34,5 +34,32 @@ namespace DataStructuresAndAlgorithms.Data_Structures.Linked_Lists
 
             temp.Next = newNode;
         }
+
+        public void DeleteAll(T data)
+        {
+            if ( Head == null )
+            {
+                return;
+            }
+
+            if ( Head.Data.Equals( data ))
+            {
+                Head = Head.Next;
+                --Length;
+            }
+
+            INode<T> temp = Head;
+            while ( temp != null )
+            {
+                if ( temp.Next != null && 
+                     temp.Next.Data.Equals( data ))
+                {
+                    temp.Next = temp.Next.Next;
+                    --Length;
+                }
+
+                temp = temp.Next;
+            }
+        }
     }
 }

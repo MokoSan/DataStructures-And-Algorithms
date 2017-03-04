@@ -7,5 +7,6 @@
 
         void AddToHead(T data);
         void AppendToTail(T data);
+        void DeleteAll(T data);
     }
 }

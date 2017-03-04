@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data Structures\Linked Lists\CTCI\Question1.cs" />
     <Compile Include="Data Structures\Linked Lists\Interface\ILinkedList.cs" />
     <Compile Include="Data Structures\Linked Lists\Interface\INode.cs" />
     <Compile Include="Data Structures\Linked Lists\LinkedList.cs" />

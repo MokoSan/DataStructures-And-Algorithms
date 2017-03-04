@@ -21,8 +21,20 @@ namespace DataStructuresAndAlgorithms.Data_Structures.Linked_Lists
             Data = data;
             Next = next;
         }
-
         public T Data { get; set; } 
         public INode<T> Next { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            INode<T> node = obj as INode<T>;
+            if (node == null)
+                return false;
+            return ( Data.Equals( node.Data ));
+        }
+
+        public override int GetHashCode()
+        {
+            return 17 * Data.GetHashCode();
+        }
     }
 }

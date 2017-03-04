@@ -54,5 +54,26 @@ namespace DataStructuresAndAlgorithms.UnitTest.Data_Structures.Linked_Lists
             Assert.IsTrue(linkedList.Head.Data == 1);
             Assert.IsTrue(linkedList.Head.Next.Data == 2);
         }
+
+        [TestMethod]
+        public void DeleteAll_NullHead_NoOp()
+        {
+            ILinkedList<int> linkedList = new LinkedList<int>();
+            linkedList.DeleteAll(5);
+
+            Assert.IsTrue(linkedList.Head == null);
+            Assert.IsTrue(linkedList.Length == 0);
+        }
+
+        [TestMethod]
+        public void DeleteAll_HeadWithDataToDelete_DeleteHead()
+        {
+            ILinkedList<int> linkedList = new LinkedList<int>();
+            linkedList.AddToHead(1);
+            linkedList.DeleteAll(1);
+
+            Assert.IsTrue(linkedList.Head == null);
+            Assert.IsTrue(linkedList.Length == 0);
+        }
     }
 }
