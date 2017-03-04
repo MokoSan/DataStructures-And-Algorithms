@@ -13,7 +13,6 @@ namespace DataStructuresAndAlgorithms.Data_Structures.Linked_Lists
             newNode.Next = Head; 
             Head = newNode;
             ++Length;
-            return;
         }
 
         public void AppendToTail(T data)
