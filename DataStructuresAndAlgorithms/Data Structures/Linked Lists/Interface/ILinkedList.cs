@@ -2,7 +2,9 @@
 {
     public interface ILinkedList<T>
     {
+        uint Length { get; }
         INode<T> Head { get; }
+
         void AddToHead(T data);
         void AppendToTail(T data);
     }
