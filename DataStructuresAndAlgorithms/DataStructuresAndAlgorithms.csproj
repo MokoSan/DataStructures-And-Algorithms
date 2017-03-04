@@ -40,15 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Searching\BinarySearch.cs" />
     <Compile Include="Data Structures\Linked Lists\Interface\ILinkedList.cs" />
     <Compile Include="Data Structures\Linked Lists\Interface\INode.cs" />
     <Compile Include="Data Structures\Linked Lists\LinkedList.cs" />
     <Compile Include="Data Structures\Linked Lists\Node.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Algorithms\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

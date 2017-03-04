@@ -63,6 +63,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Algorithms\Searching\BinarySearch.cs" />
     <Compile Include="Data Structures\Linked Lists\LinkedLists.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
