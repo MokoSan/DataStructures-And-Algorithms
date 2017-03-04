@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Data Structures\Linked Lists\CTCI\Question1.cs" />
     <Compile Include="Data Structures\Linked Lists\CTCI\Question2.cs" />
+    <Compile Include="Data Structures\Linked Lists\CTCI\Question3.cs" />
     <Compile Include="Data Structures\Linked Lists\LinkedLists.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
