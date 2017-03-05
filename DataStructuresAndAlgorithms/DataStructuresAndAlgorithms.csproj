@@ -47,6 +47,7 @@
     <Compile Include="Data Structures\Linked Lists\Interface\INode.cs" />
     <Compile Include="Data Structures\Linked Lists\LinkedList.cs" />
     <Compile Include="Data Structures\Linked Lists\Node.cs" />
+    <Compile Include="Data Structures\StacksAndQueues\CTCI\Question1.cs" />
     <Compile Include="Data Structures\StacksAndQueues\Interface\IQueue.cs" />
     <Compile Include="Data Structures\StacksAndQueues\Interface\IStack.cs" />
     <Compile Include="Data Structures\StacksAndQueues\Queue.cs" />
