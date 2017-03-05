@@ -9,6 +9,7 @@
         void RemoveFromHead();
         void AppendToTail(T data);
         void DeleteAll(T data);
+        void AddedElement();
         void RemovedElement();
     }
 }

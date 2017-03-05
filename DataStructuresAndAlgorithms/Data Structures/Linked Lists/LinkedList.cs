@@ -62,6 +62,11 @@ namespace DataStructuresAndAlgorithms.Data_Structures.Linked_Lists
             }
         }
 
+        public void AddedElement()
+        {
+            ++Length; 
+        }
+
         public void RemovedElement()
         {
             --Length;
