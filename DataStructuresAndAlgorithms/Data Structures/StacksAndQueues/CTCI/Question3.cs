@@ -14,7 +14,7 @@ namespace DataStructuresAndAlgorithms.Data_Structures.StacksAndQueues.CTCI
     /// behave identically to a single stack(that is, pop() should return the same values as it
     /// would if there were just a single stack).
     /// </summary>
-    public class Question3<T> : IStack<T> 
+    public sealed class Question3<T> : IStack<T> 
     {
         private List<IStack<T>> _stacks = new List<IStack<T>>();
         private int _stackNumber        = -1;

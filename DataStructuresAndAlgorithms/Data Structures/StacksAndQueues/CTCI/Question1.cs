@@ -3,7 +3,7 @@
     /// <summary>
     /// Describe how you could use a single array to implement three stacks.
     /// </summary>
-    public class Question1<T>
+    public sealed class Question1<T>
     {
         private const int STACK_SIZE = 300;
         private T[] _buffer = new T[STACK_SIZE * 3];

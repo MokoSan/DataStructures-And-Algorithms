@@ -11,7 +11,7 @@ namespace DataStructuresAndAlgorithms.Data_Structures.StacksAndQueues.CTCI
     /// min which returns the minimum element? Push, pop and min should all operate in
     /// O(1) time.
     /// </summary>
-    public class Question2 : IStack<int>
+    public sealed class Question2 : IStack<int>
     {
         private readonly ILinkedList<int> _linkedList    = new LinkedLists.LinkedList<int>();
         private readonly SortedSet<int> _minSet          = new SortedSet<int>();
