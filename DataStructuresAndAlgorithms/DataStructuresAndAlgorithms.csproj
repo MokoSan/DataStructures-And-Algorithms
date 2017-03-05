@@ -47,6 +47,10 @@
     <Compile Include="Data Structures\Linked Lists\Interface\INode.cs" />
     <Compile Include="Data Structures\Linked Lists\LinkedList.cs" />
     <Compile Include="Data Structures\Linked Lists\Node.cs" />
+    <Compile Include="Data Structures\StacksAndQueues\Interface\IQueue.cs" />
+    <Compile Include="Data Structures\StacksAndQueues\Interface\IStack.cs" />
+    <Compile Include="Data Structures\StacksAndQueues\Queue.cs" />
+    <Compile Include="Data Structures\StacksAndQueues\Stack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

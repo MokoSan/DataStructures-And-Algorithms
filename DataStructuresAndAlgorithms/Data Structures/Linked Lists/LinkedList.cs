@@ -66,5 +66,14 @@ namespace DataStructuresAndAlgorithms.Data_Structures.Linked_Lists
         {
             --Length;
         }
+
+        public void RemoveFromHead()
+        {
+            if (Head == null)
+                return;
+
+            Head = Head.Next;
+            --Length;
+        }
     }
 }
