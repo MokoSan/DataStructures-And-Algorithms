@@ -4,7 +4,7 @@ using DataStructuresAndAlgorithms.Data_Structures.StacksAndQueues.Interface;
 
 namespace DataStructuresAndAlgorithms.Data_Structures.StacksAndQueues
 {
-    public sealed class Stack<T> : IStack<T>
+    public class Stack<T> : IStack<T>
     {
         private readonly ILinkedList<T> _linkedList = new LinkedList<T>();
            
