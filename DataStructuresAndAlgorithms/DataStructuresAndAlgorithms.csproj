@@ -43,6 +43,7 @@
     <Compile Include="Data Structures\Linked Lists\CTCI\Question1.cs" />
     <Compile Include="Data Structures\Linked Lists\CTCI\Question2.cs" />
     <Compile Include="Data Structures\Linked Lists\CTCI\Question3.cs" />
+    <Compile Include="Data Structures\Linked Lists\GeeksForGeeks\Question2.cs" />
     <Compile Include="Data Structures\Linked Lists\Interface\ILinkedList.cs" />
     <Compile Include="Data Structures\Linked Lists\Interface\INode.cs" />
     <Compile Include="Data Structures\Linked Lists\LinkedList.cs" />

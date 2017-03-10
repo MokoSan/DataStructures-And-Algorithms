@@ -72,6 +72,7 @@
     <Compile Include="Data Structures\StacksAndQueues\CTCI\Question3.cs" />
     <Compile Include="Data Structures\StacksAndQueues\CTCI\Question5.cs" />
     <Compile Include="Data Structures\StacksAndQueues\GeeksForGeeks\Question1.cs" />
+    <Compile Include="Data Structures\StacksAndQueues\GeeksForGeeks\Question2.cs" />
     <Compile Include="Data Structures\StacksAndQueues\Queue.cs" />
     <Compile Include="Data Structures\StacksAndQueues\Stack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
