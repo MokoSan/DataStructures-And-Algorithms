@@ -1,4 +1,4 @@
-﻿namespace DataStructuresAndAlgorithms.Algorithms.Recursion
+﻿namespace DataStructuresAndAlgorithms.Algorithms.Recursion.CodingBat
 {
     public static class Factorial
     {
