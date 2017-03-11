@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Recursion\CodingBat\BunnyEars.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\Factorial.cs" />
     <Compile Include="Algorithms\Searching\BinarySearch.cs" />
     <Compile Include="Data Structures\Linked Lists\Interface\ILinkedList.cs" />
