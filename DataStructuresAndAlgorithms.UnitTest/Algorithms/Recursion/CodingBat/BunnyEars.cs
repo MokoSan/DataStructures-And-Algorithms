@@ -27,5 +27,12 @@ namespace DataStructuresAndAlgorithms.UnitTest.Algorithms.Recursion.CodingBat
             int result = ComputeEars(2);
             Assert.IsTrue(result == 4);
         }
+
+        [TestMethod]
+        public void ComputeEars_3Bunnies_6Result()
+        {
+            int result = ComputeEars(3);
+            Assert.IsTrue(result == 6);
+        }
     }
 }
