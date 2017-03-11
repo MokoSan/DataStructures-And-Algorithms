@@ -44,6 +44,7 @@
     <Compile Include="Algorithms\Recursion\CodingBat\BunnyEars2.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\Factorial.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\Fibonacci.cs" />
+    <Compile Include="Algorithms\Recursion\CodingBat\SumDigits.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\SumOfN.cs" />
     <Compile Include="Algorithms\Searching\BinarySearch.cs" />
     <Compile Include="Data Structures\Linked Lists\Interface\ILinkedList.cs" />
