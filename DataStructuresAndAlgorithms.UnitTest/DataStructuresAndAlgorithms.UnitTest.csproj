@@ -66,6 +66,7 @@
     <Compile Include="Algorithms\Recursion\CodingBat\BunnyEars.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\BunnyEars2.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\Count7.cs" />
+    <Compile Include="Algorithms\Recursion\CodingBat\Countx.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\Factorial.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\Fibonacci.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\SumDigits.cs" />
