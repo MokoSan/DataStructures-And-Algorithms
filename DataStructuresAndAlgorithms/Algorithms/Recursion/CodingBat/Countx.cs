@@ -9,7 +9,7 @@
 
         public static int CountxUtil(string input, int runningCount, int currentPosition)
         {
-            if ( currentPosition == input.Length)
+            if (currentPosition == input.Length)
                 return runningCount;
             if (input[currentPosition] == 'x')
                 runningCount += 1;
