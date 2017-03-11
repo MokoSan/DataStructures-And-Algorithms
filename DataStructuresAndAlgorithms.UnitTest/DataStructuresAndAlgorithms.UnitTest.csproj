@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Algorithms\Recursion\CodingBat\BunnyEars.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\BunnyEars2.cs" />
+    <Compile Include="Algorithms\Recursion\CodingBat\ChangexToy.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\Count7.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\CountHi.cs" />
     <Compile Include="Algorithms\Recursion\CodingBat\Countx.cs" />
